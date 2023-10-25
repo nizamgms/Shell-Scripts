@@ -33,9 +33,5 @@ curl -X PUT -T "${file_to_upload}" \
   -H "Authorization: AWS ${s3_access_key}:${signature_hash}" \
   https://${bucket}.s3.amazonaws.com/${file_to_upload}
 
-=======================================================================================================
-
-
-s3cmd put eproc-module-name.csv s3://BUCKET[/PREFIX]
 
 
